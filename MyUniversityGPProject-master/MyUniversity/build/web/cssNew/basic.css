@@ -1,0 +1,642 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height:25px;
+}
+
+#wrapper {
+    width: 100%;
+    background: #202020;
+}
+
+#page-wrapper {
+    padding: 15px 15px;
+    min-height: 600px;
+    background: #F3F3F3;
+}
+
+#page-inner {
+    width: 100%;
+    margin: 10px 20px 10px 0px;
+    background-color: #fff!important;
+    padding: 10px;
+    min-height: 1200px;
+}
+
+.page-head-line {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 800;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #00CA79;
+    margin-bottom: 10px;
+}
+
+.page-subhead-line {
+    font-size: 14px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    font-style:italic;
+    margin-bottom:30px;
+    border-bottom:1px dashed #00CA79;
+
+}
+
+
+/*==============================================
+    MENU STYLES    
+    =============================================*/
+
+
+.navbar-cls-top .navbar-brand {
+    color: #fff;
+    background: #202020;
+    width: 260px;
+    text-align: center;
+    height: 75px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 900;
+    padding-top: 25px;
+    text-transform:uppercase;
+}
+
+.header-right {
+    color: #fff;
+    padding: 15px 50px 5px 50px;
+    float: right;
+    font-size: 16px;
+}
+
+.navbar-cls-top .navbar-brand:hover {
+    background: #202020;
+    color: #fff;
+}
+
+.user-img-div {
+    min-height: 140px;
+    padding: 20px;
+    background-color: #4380B8;
+}
+
+.user-img-div img {
+    max-height: 60px;
+}
+
+.user-img-div .inner-text {
+    text-align: right;
+    position: relative;
+    color: #fff;
+    font-weight: 800;
+    line-height: 25px;
+}
+
+.active-menu {
+    background-color: #00CA79!important;
+}
+.active-menu-top {
+    background-color: #000!important;
+}
+
+.arrow {
+    float: right;
+}
+
+.fa.arrow:before {
+    content: "\f104";
+}
+
+.active > a > .fa.arrow:before {
+    content: "\f107";
+}
+
+
+.nav-second-level li,
+.nav-third-level li {
+    border-bottom: none !important;
+}
+
+.nav-second-level li a {
+    padding-left: 37px;
+}
+
+.nav-third-level li a {
+    padding-left: 55px;
+}
+
+.sidebar-collapse, .sidebar-collapse .nav {
+    background: none;
+}
+
+.sidebar-collapse .nav {
+    padding: 0;
+}
+
+.sidebar-collapse .nav > li > a {
+    color: #fff;
+    background: #202020;
+    text-shadow: none;
+    padding: 15px 40px;
+    border-bottom: 1px solid #2F2E31;
+}
+
+.sidebar-collapse > .nav > li > a {
+    padding: 15px 10px;
+}
+
+.sidebar-collapse .nav > li > a:hover,
+.sidebar-collapse .nav > li > a:focus {
+    background: #0A0A0A;
+    outline: 0;
+}
+
+
+
+.nav-second-level > li:last-child > a:after,
+.nav-third-level > li:last-child > a:after {
+    height: 50%;
+}
+
+.nav-third-level > li > a:after,
+.nav-third-level > li > a:before {
+    left: 40px;
+}
+
+.navbar-side {
+    border: none;
+    background-color: #202020;
+}
+
+.navbar-cls-top {
+    background: #00CA79;
+    border-bottom: none;
+}
+
+
+.navbar-default {
+    border: 0px solid black;
+}
+
+.navbar-header {
+    background: #000000;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #00CA79;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+
+.nav > li > a > i {
+    margin-right: 10px;
+}
+/*==============================================
+    FOOTER  STYLES    
+    =============================================*/
+#footer-sec {
+    background-color:#000;
+    padding:20px 50px;
+    color:#fff;
+    font-size:12px;
+}
+
+#footer-sec a {
+    color:#fff;
+}
+#footer-sec a:hover,a:focus {
+    color:#fff;
+    text-decoration:none;
+}
+/*==============================================
+    MEDIA QUERIES     
+    =============================================*/
+
+@media (min-width:768px) {
+    #page-wrapper {
+        margin: 0 0 0 260px;
+        padding: 15px 30px;
+        min-height: 1200px;
+    }
+
+
+    .navbar-side {
+        z-index: 1;
+        position: absolute;
+        width: 260px;
+    }
+
+    .navbar {
+        border-radius: 0px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#tabl{ margin-top:100px; width:800px; margin-left:50px;}
+
+#tabl td{
+    line-height: 1.25;
+    text-align: left;
+    vertical-align: middle;
+}
+.topic-list th, .topic-list td{
+    padding: 17px 15px;
+}
+
+.topic-list th:first-of-type, .topic-list td:first-of-type{
+    padding-left: 10px;
+}
+
+.topic-list th{
+    color: #989898;
+    font-weight: normal;
+    font-size: 1em;
+}
+
+
+.topic-list-item td:first-child, .topic-post{
+    border-left: 1px solid transparent;
+}
+
+
+fa-thumb-tack:before {
+    content: "\f08d";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#conta_post{}
+
+#top_pagepost{ height:110px; width:100%; background-color:#eee }
+#top_pagepost h1{ float:left; padding-top:30px; margin-left:15px; font-family:Verdana, Geneva, sans-serif; font-size:30px; font-weight:400; color:#000 }
+
+#top_pagepost img{ float:right; width:80px; height:80px;  margin-right:20px; margin-top:20px;}
+
+#top_pagepost i{ float:right;   margin-right:20px; margin-top:80px;}
+#top_pagepost a{ float:left; padding-top:70px; margin-left:60px; font-family:Verdana, Geneva, sans-serif; font-size:14px; font-weight:200; }
+
+
+#top_pagepost h6{ float:left; padding-top:70px; margin-left:60px; font-family:Verdana, Geneva, sans-serif; font-size:14px; font-weight:200; }
+#year{ margin-left:50px; padding-top:20px;}
+#year h1{ float: left;font-size:32px}
+#year h3{ float: left;margin-left:10px;font-family:Verdana, Geneva, sans-serif; font-size:12px; margin-top:20px; color:#CCC }
+#year select{ float: left; margin-top:25px; margin-left:10px;}
+#year   button { float: right; margin-top:15px; margin-right:20px; }
+
+#hidenpost a h1{ margin-top:100px; margin-left:-100px;}
+
+#foo button{ margin-left:20px; }
+
+#foo { margin-left:-100px; margin-top:50px;}
+#hidenpost{  float:left ; margin-left:150px;} 
+
+#selec{ float:left; margin-left:-100px;}
+
+
+#selec input{ float:left; width:400px; }
+
+#selec select{ float:left; margin-left: 20px; }
+
+.topic-list .main-link a.title {
+    padding: 15px 0;
+}
+
+.topic-list th, .topic-list td {
+    line-height: 1.25;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#tabl{ width:600px;}
+
+
+#rightcontent2{height:100%px; width:100%px; background-color:#fff}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*start page Edit profil*/
+
+input {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    color:#006;
+    border: thin none #333;
+    border-spacing: 2px;
+    margin-left: 20px;
+    text-align: center;
+}
+input {
+    text-align: center;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    color: #006;
+    border: thin none #333;
+    border-spacing: 2px;
+    margin-left: 20px;
+}
+
+
+
+
+user agent stylesheetinput {
+    text-align: center;
+    -webkit-appearance: textfield;
+    background-color: white;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    -webkit-rtl-ordering: logical;
+    -webkit-user-select: text;
+    cursor: auto;
+    padding: 1px;
+    border: 2px inset;
+    margin-left: 0px;
+}
+user agent stylesheetinput, textarea, keygen, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em 0em 0em 0em;
+    font: 13.3333px Arial;
+    text-align: center;
+}
+user agent stylesheetinput, textarea, keygen, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb;
+    text-align: center;
+}
+Inherited from table.UserTable
+.UserTable {
+    text-align: center;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+}
+user agent stylesheettable {
+    text-align: center;
+    white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-variant: normal;
+    font-style: normal;
+    color: -webkit-text;
+    margin-left: 20px;
+}
+user agent stylesheettable {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+    text-align: center;
+    margin-left: 20px;
+}
+
+#tdst td{ text-align: center; background-color:#ccc}
+
+/*end page Edit profil*/
+
+
+
+
+/*chat*/
+
+.chat {
+    width: 490px;
+    float: right;
+    background: #F2F5F8;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #434651;
+}
+.chat .chat-header {
+    padding: 20px;
+    border-bottom: 2px solid white;
+}
+.chat .chat-header img {
+    float: left;
+}
+.chat .chat-header .chat-about {
+    float: left;
+    padding-left: 10px;
+    margin-top: 6px;
+}
+.chat .chat-header .chat-with {
+    font-weight: bold;
+    font-size: 16px;
+}
+.chat .chat-header .chat-num-messages {
+    color: #92959E;
+}
+.chat .chat-header .fa-star {
+    float: right;
+    color: #D8DADF;
+    font-size: 20px;
+    margin-top: 12px;
+}
+.chat .chat-history {
+    padding: 30px 30px 20px;
+    border-bottom: 2px solid white;
+    overflow-y: scroll;
+    height: 575px;
+}
+.chat .chat-history .message-data {
+    margin-bottom: 15px;
+}
+.chat .chat-history .message-data-time {
+    color: #a8aab1;
+    padding-left: 6px;
+}
+.chat .chat-history .message {
+    color: white;
+    padding: 18px 20px;
+    line-height: 26px;
+    font-size: 16px;
+    border-radius: 7px;
+    margin-bottom: 30px;
+    width: 90%;
+    position: relative;
+}
+.chat .chat-history .message:after {
+    bottom: 100%;
+    left: 7%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-bottom-color: #86BB71;
+    border-width: 10px;
+    margin-left: -10px;
+}
+.chat .chat-history .my-message {
+    background: #86BB71;
+}
+.chat .chat-history .other-message {
+    background: #94C2ED;
+}
+.chat .chat-history .other-message:after {
+    border-bottom-color: #94C2ED;
+    left: 93%;
+}
+.chat .chat-message {
+    padding: 30px;
+}
+.chat .chat-message textarea {
+    width: 100%;
+    border: none;
+    padding: 10px 20px;
+    font: 14px/22px "Lato", Arial, sans-serif;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    resize: none;
+}
+.chat .chat-message .fa-file-o, .chat .chat-message .fa-file-image-o {
+    font-size: 16px;
+    color: gray;
+    cursor: pointer;
+}
+.chat .chat-message button {
+    float: right;
+    color: #94C2ED;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    background: #F2F5F8;
+}
+.chat .chat-message button:hover {
+    color: #75b1e8;
+}
+
+.online, .offline, .me {
+    margin-right: 3px;
+    font-size: 10px;
+}
+
+.online {
+    color: #86BB71;
+}
+
+.offline {
+    color: #E38968;
+}
+
+.me {
+    color: #94C2ED;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.float-right {
+    float: right;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
+
+/*end chat*/
+#rightcontent2{ margin-left:5px;height:100%; width:800px; float: left;background-color:#fff}
+#topchat { margin-top:20px; margin-left:20px;}
+#topchat h1{ color:#000; font-size:36px}
+#head{ background-color:#1c262f; height:100px; padding-top:20px;}
+
+.main2-color{ color:#fff; }
+.menu2{  font-size:23px ; margin-left:50px}
+.nav2 li {  font-size:14px; margin-left:20px;width:150px; padding-top:20px;}
+
+#leftcontent h1{ text-align:center; padding-bottom:30px; font-size:23px; color:#eee; padding-top:60px; font-family:Tahoma, Geneva, sans-serif;display:block; background-color:#1c262f;}
+#leftcontent form{ margin-left:50px; padding-top:25px; }
+
+
+#leftcontent a{ text-align:center; font-family:Tahoma, Geneva, sans-serif; font-size:18px; color:#eee; margin-left:90px; padding-bottom:50px; padding-top:50px;}
+
+
+#end{ text-align:center; color:#000}
